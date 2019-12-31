@@ -1,0 +1,33 @@
+{
+  "name": "node-puppeteer-scrape",
+  "version": "1.0.0",
+  "description": "Scrape table from multiple urls and save as CSV",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsidio/Node-pupperteer.git"
+  },
+  "keywords": [
+    "scrape",
+    "node",
+    "puppeeter",
+    "json",
+    "to",
+    "csv"
+  ],
+  "author": "https://bsid.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsidio/Node-pupperteer/issues"
+  },
+  "homepage": "https://github.com/bsidio/Node-pupperteer#readme",
+  "dependencies": {
+    "converter": "0.0.5",
+    "fs": "0.0.1-security",
+    "puppeteer": "^2.0.0"
+  }
+}

@@ -1,11 +1,7 @@
 const puppeteer = require('puppeteer');
 var fs = require('fs');
-const json2csv = require('json2csv').parse;
-var newLine= "\r\n";
-const path = require('path');
 let converter = require('json-2-csv');
-const { parse } = require('json2csv');
-const { parseAsync } = require('json2csv');
+
 let jsonData=[];
 const col=['name' ,`ENGG MATHS - I`,
     'ENGG MATHS Total',
